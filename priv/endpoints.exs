@@ -1385,6 +1385,10 @@
             "us-west-2" => %{
               "hostname" => "s3.us-west-2.amazonaws.com",
               "signatureVersions" => ["s3", "s3v4"]
+            },
+            "us-west-002" => %{
+              "hostname" => "s3.us-west-002.backblazeb2.com",
+              "signatureVersions" => ["s3v4"]
             }
           },
           "isRegionalized" => true,
